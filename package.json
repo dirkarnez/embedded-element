@@ -1,0 +1,27 @@
+{
+  "name": "embedded-element",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "src/index.d.ts",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack --color --progress",
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --color --progress"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.3.3",
+    "babel-loader": "^8.0.5",
+    "cross-env": "^5.2.0",
+    "terser-webpack-plugin": "^1.2.3",
+    "typescript": "^3.4.5",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.2",
+    "webpack-dev-server": "^3.3.1"
+  }
+}
